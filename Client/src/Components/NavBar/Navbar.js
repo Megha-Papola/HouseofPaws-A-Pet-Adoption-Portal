@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./images/logo.png";
+import logo from "./icon.png";
 
 const Navbar = (props) => {
   return (
     <div className="navbar-container">
       <div>
         <Link className="logo-container" to="/">
-          <img className="navbar-logo" src={logo} alt="PawFinds Logo" />
+          <img className="navbar-logo" src={logo} alt="HouseofPaws Logo" />
           <p>{props.title}</p>
         </Link>
       </div>
@@ -17,7 +17,7 @@ const Navbar = (props) => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <Link to="/services">Adopt a Pet</Link>
           </li>
           <li>
             <Link to="/pets">Pets</Link>
