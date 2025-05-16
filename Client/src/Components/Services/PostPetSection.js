@@ -23,11 +23,11 @@ const PostPetSection = () => {
       setAgeError(false);
       setFormError(false);
     }
-  }, [isSubmitting]);
+  }, [isSubmitting]);  
 
-  const togglePopup = () => {
-    setShowPopup(!showPopup);
-  };
+  const togglePopup = () => { 
+    setShowPopup(!showPopup); 
+  }; 
 
   const isEmailValid = (email) => {
     const emailPattern = /^[a-zA-Z0-9._-]+@gmail\.com$/;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./images/logo.png";
+import logo from "./images/icon.png";
 
 const Footer = (props) => {
   return (
@@ -13,15 +13,15 @@ const Footer = (props) => {
       </div>
       <div className="below-footer">
         <p>
-          You can reach me at{" "}
-          <a className="mail-links" href="mailto:kashifkzmi5@gmail.com">
-            kashifkzmi5@gmail.com
+          You can reach us at{" "}
+          <a className="mail-links" href="mailto:meghapapola05@gmail.com">
+            houseofpaws@gmail.com
           </a>
         </p>
         <p>
           <a
             className="contact-links"
-            href="https://www.linkedin.com/in/kashiekzmi/"
+            href="https://www.linkedin.com/in/MeghaPapola/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +30,7 @@ const Footer = (props) => {
           &nbsp;&nbsp;|&nbsp;&nbsp;
           <a
             className="contact-links"
-            href="https://github.com/KaShiekzmi"
+            href="https://github.com/MeghaPapola"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -55,7 +55,7 @@ const Footer = (props) => {
             <i className="fa fa-whatsapp"></i> WhatsApp
           </a>
         </p>
-        <p>&copy; 2023 Kashif Abbas Kazmi</p>
+        <p>&copy; 2025 House of Paws</p>
       </div>
     </footer>
   );

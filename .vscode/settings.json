@@ -1,5 +1,12 @@
 {
+    "json.schemas": [],
+    "json.schemaDownload.enable": true,
+    "json.validate.enable": false,
     "cSpell.words": [
+        "houseofpaws",
+        "meghapapola",
+        "qfhr",
+        "unpx",
         "adopton",
         "loadjs"
     ]

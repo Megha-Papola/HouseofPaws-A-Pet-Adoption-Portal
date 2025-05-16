@@ -5,12 +5,12 @@
 }
 
 :root {
-    --orange: #fea034;
-    --hoverorange: #ff9317;
+    --orange: #5F4025;
+    --hoverorange: #7D5839;
     --Lightorange: rgb(231, 158, 75);
-    --white: white;
+    --white:#F7E4C8;
     --black: black;
-    --textGrey: rgb(237, 233, 233);
+    --textGrey: #F7E4C8;
     --darkGrey: #1F2130;
 }
 
@@ -21,6 +21,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 35px;
+    border-width: 10;
+    border-color: #5F4025;
+    background-color: #F7E4C8;
 }
 
 .navbar-logo {
@@ -39,12 +42,25 @@
 .logo-container>p {
     font-family: 'Oxygen', sans-serif;
     margin-left: 10px;
-    font-size: 29px;
+    font-size: 35px;
+    font-weight: bolder;
 }
-
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* space between links */
+    font-size: 30px; /* Increase this value as needed */
+    font-weight: 500;
+}
 .navbar-links li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 0px;
+    font-size: 40px;
+    list-style: none;
+    display: flex;
+    gap: 30px; /* space between links */
+    
+    font-weight: 500;
 }
 
 .navbar-links li>* {
@@ -53,14 +69,14 @@
     padding: 5px 15px;
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 60px;
     border-radius: 20px;
     color: var(--black);
 }
 
 .navbar-links li>*:hover {
-    border: 2px var(--hoverorange) solid;
-    background-color: var(--hoverorange);
+    border: 2px var(--Lightorange) solid;
+    background-color: var(--Lightorange);
     color: var(--white);
     box-shadow: 1.5px 1.5px 3px var(--hoverorange);
 }
@@ -72,59 +88,83 @@
     }
 
     .navbar-container>* {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
     }
 }
 
 .home-container {
-    padding: 20px 50px 70px 50px;
-    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 95vh;
+    width: 200px;
+    margin-left: 500px;
 }
-
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .homeContainer-left {
-    width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.homeContainer-right>img {
+    width: 400px; 
+    height: auto;
+    align-content: center;
+    justify-content: center;
+}
+.home-title p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
-.home-title {
-    font-size: 70px;
-    line-height: 1.2;
-    font-weight: bold;
-    font-family: 'Preahvihear', sans-serif;
+.logo-img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
 }
-
 .home-titlePlusPng {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+    font-size: 2rem; /* Adjust text size here */
+    font-weight: bold;
 }
 
 .home-titlePlusPng>img {
-    width: 80px;
-    margin-left: 10px;
-}
-
-.home-second-para {
-    font-size: 18px;
-    color: grey;
-    margin: 20px 0px 20px 0px;
+    width: 35px;
+    height:auto;
 }
 
 .homeContainer-right {
-    padding-left: 40PX;
-    width: 35vw;
+    width: 250px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .adopt-btn>* {
-    text-decoration: none;
+    margin-top: 17px;
+    
+}
+
+.Home-button img {
+    width: 20px;
+    height: auto;
 }
 
 .Home-button {
@@ -379,7 +419,7 @@
     padding: 5px 15px;
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 20px;
     color: var(--black);
 }
@@ -393,11 +433,11 @@
 
 .Navbar-button {
     border: 2px var(--orange) solid;
-    height: 42px;
-    width: 105px;
+    height: 50px;
+    width: 150px;
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 20px;
     background-color: var(--orange);
     color: var(--white);
