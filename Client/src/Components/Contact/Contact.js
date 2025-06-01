@@ -17,7 +17,7 @@ const Contact = () => {
         </a>
 
         <i class="fa fa-github"></i>
-        <a class="mail-links" href="https://github.com/KaShiekzmi">
+        <a class="mail-links" href="https://github.com/MeghaPapola">
           houseofpaws
         </a>
 
