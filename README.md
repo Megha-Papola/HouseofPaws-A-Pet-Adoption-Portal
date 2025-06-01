@@ -32,4 +32,3 @@ HouseOfPaws is a full-stack MERN application designed to simplify the pet adopti
 ---
 
 ## 📁 Folder Structure
-
