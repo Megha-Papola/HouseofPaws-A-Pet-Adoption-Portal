@@ -1,4 +1,10 @@
 {
+  "name": "houseofpaws",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
   "dependencies": {
     "date-fns": "^2.28.0"
   }
